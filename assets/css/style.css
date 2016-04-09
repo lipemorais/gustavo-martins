@@ -117,6 +117,9 @@ iframe {
     background-image: url("../img/preloader.gif");
     background-size: 32px 32px;
   }
+  .navbar-nav {
+    margin: 7.5px 2px;
+  }
 }
 /* ==========================================================================
   Global CSS
@@ -369,8 +372,8 @@ iframe {
   Site Container with Content
 ============================================================================= */
 .site-container {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
   overflow: hidden;
 }
 .site-container.boxed {
